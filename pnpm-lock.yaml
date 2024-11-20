@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^7.32.0
     version: 7.32.0
   eslint-plugin-jest:
-    specifier: ^24.5.2
-    version: 24.5.2(@typescript-eslint/eslint-plugin@4.33.0)(eslint@7.32.0)(typescript@4.4.3)
+    specifier: ^24.7.0
+    version: 24.7.0(@typescript-eslint/eslint-plugin@4.33.0)(eslint@7.32.0)(typescript@4.4.3)
   eslint-plugin-mocha:
     specifier: ^9.0.0
     version: 9.0.0(eslint@7.32.0)
@@ -1864,8 +1864,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-plugin-jest@24.5.2(@typescript-eslint/eslint-plugin@4.33.0)(eslint@7.32.0)(typescript@4.4.3):
-    resolution: {integrity: sha512-lrI3sGAyZi513RRmP08sIW241Ti/zMnn/6wbE4ZBhb3M2pJ9ztaZMnSKSKKBUfotVdwqU8W1KtD8ao2/FR8DIg==}
+  /eslint-plugin-jest@24.7.0(@typescript-eslint/eslint-plugin@4.33.0)(eslint@7.32.0)(typescript@4.4.3):
+    resolution: {integrity: sha512-wUxdF2bAZiYSKBclsUMrYHH6WxiBreNjyDxbRv345TIvPeoCEgPNEn3Sa+ZrSqsf1Dl9SqqSREXMHExlMMu1DA==}
     engines: {node: '>=10'}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '>= 4'
