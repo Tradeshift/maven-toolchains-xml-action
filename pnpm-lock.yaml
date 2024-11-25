@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^24.5.2
     version: 24.5.2(@typescript-eslint/eslint-plugin@4.33.0)(eslint@7.32.0)(typescript@4.4.3)
   eslint-plugin-mocha:
-    specifier: ^9.0.0
-    version: 9.0.0(eslint@7.32.0)
+    specifier: ^10.5.0
+    version: 10.5.0(eslint@7.32.0)
   jest:
     specifier: ^27.2.4
     version: 27.2.4
@@ -1882,15 +1882,16 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-mocha@9.0.0(eslint@7.32.0):
-    resolution: {integrity: sha512-d7knAcQj1jPCzZf3caeBIn3BnW6ikcvfz0kSqQpwPYcVGLoJV5sz0l0OJB2LR8I7dvTDbqq1oV6ylhSgzA10zg==}
-    engines: {node: '>=12.0.0'}
+  /eslint-plugin-mocha@10.5.0(eslint@7.32.0):
+    resolution: {integrity: sha512-F2ALmQVPT1GoP27O1JTZGrV9Pqg8k79OeIuvw63UxMtQKREZtmkK1NFgkZQ2TW7L2JSSFKHFPTtHu5z8R9QNRw==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
       eslint: 7.32.0
       eslint-utils: 3.0.0(eslint@7.32.0)
-      ramda: 0.27.1
+      globals: 13.24.0
+      rambda: 7.5.0
     dev: true
 
   /eslint-scope@5.1.1:
@@ -2260,6 +2261,13 @@ packages:
 
   /globals@13.11.0:
     resolution: {integrity: sha512-08/xrJ7wQjK9kkkRoI3OFUBbLx4f+6x3SGwcPvQ0QH6goFDrOU2oyAWrmh3dJezu65buo+HBMzAMQy6rovVC3g==}
+    engines: {node: '>=8'}
+    dependencies:
+      type-fest: 0.20.2
+    dev: true
+
+  /globals@13.24.0:
+    resolution: {integrity: sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==}
     engines: {node: '>=8'}
     dependencies:
       type-fest: 0.20.2
@@ -3618,8 +3626,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ramda@0.27.1:
-    resolution: {integrity: sha512-PgIdVpn5y5Yns8vqb8FzBUEYn98V3xcPgawAkkgj0YJ0qDsnHCiNmZYfOGMgOvoB0eWFLpYbhxUR3mxfDIMvpw==}
+  /rambda@7.5.0:
+    resolution: {integrity: sha512-y/M9weqWAH4iopRd7EHDEQQvpFPHj1AA3oHozE9tfITHUtTR7Z9PSlIRRG2l1GuW7sefC1cXFfIcF+cgnShdBA==}
     dev: true
 
   /react-is@17.0.2:
