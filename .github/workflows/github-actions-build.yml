@@ -16,7 +16,7 @@ jobs:
       # https://pnpm.io/continuous-integration
       - uses: pnpm/action-setup@v2
         with:
-          version: 8
+          version: 12.18.0
       - run: |
           pnpm install
           pnpm test
